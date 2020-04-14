@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60846" started-at="2020-04-09T11:01:12 IST" finished-at="2020-04-09T11:02:13 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60846" started-at="2020-04-09T11:01:12 IST" finished-at="2020-04-09T11:02:13 IST">
+      <class name="org.TestCases.TC001_CreateLead">
+        <test-method status="PASS" signature="setExcelName()[pri:0, instance:org.TestCases.TC001_CreateLead@7f13d6e]" name="setExcelName" is-config="true" duration-ms="30" started-at="2020-04-09T11:01:12 IST" finished-at="2020-04-09T11:01:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExcelName -->
+        <test-method status="PASS" signature="loginLeafTaps(java.lang.String)[pri:0, instance:org.TestCases.TC001_CreateLead@7f13d6e]" name="loginLeafTaps" is-config="true" duration-ms="27576" started-at="2020-04-09T11:01:16 IST" finished-at="2020-04-09T11:01:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLeafTaps -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.TestCases.TC001_CreateLead@7f13d6e]" name="createLead" duration-ms="27531" started-at="2020-04-09T11:01:44 IST" data-provider="getExcelData" finished-at="2020-04-09T11:02:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baravi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="closeBroser()[pri:0, instance:org.TestCases.TC001_CreateLead@7f13d6e]" name="closeBroser" is-config="true" duration-ms="1286" started-at="2020-04-09T11:02:12 IST" finished-at="2020-04-09T11:02:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroser -->
+      </class> <!-- org.TestCases.TC001_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
